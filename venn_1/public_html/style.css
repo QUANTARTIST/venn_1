@@ -1,0 +1,126 @@
+@import url(http://fonts.googleapis.com/css?family=Rajdhani);
+@import url(http://fonts.googleapis.com/css?family=Codystar);
+
+body {
+  width: 1020px;
+  margin: 0 auto;
+  text-align: left;
+  background-color: #fcfcfc;
+  font-family: 'Rajdhani';
+  font-size: large;
+  color: #404040
+}
+
+h1 {
+  font-family: 'Codystar';
+  font-size: 48px;
+  text-align: center;
+  Color: #404040;
+}
+
+figure {
+  text-align: center;
+}
+
+a:hover { 
+  color:#DC143C;
+}
+
+ul {
+  list-style: none;
+}
+
+p{
+  text-align: center;
+}
+h4{
+  text-align: center;
+  font-weight: bolder;
+}
+
+h5 {
+  text-align: center;
+}
+
+.info {
+  font-size: x-small;
+  text-align: right;
+  padding-bottom: 8px;
+}
+
+.footer {
+  font-size: x-small;
+  text-align: right;
+}
+
+.form {
+  float: center;
+  margin: 20px 10px;
+  display: none;
+}
+
+textarea {
+  font-family: 'Oswald';
+}
+
+.venn {
+  text-align: center;
+}
+
+.venntooltip {
+  position: absolute;
+  text-align: center;
+  width: 128px;
+  height: 22px;
+  /*background: #333;*/
+  color: #404040;
+  border: 0px;
+  border-radius: 8px;
+  opacity: 0;
+}
+
+svg {
+  font-family: 'Oswald';
+  font-weight: 300;
+  font-size: 0px;
+  color: #0000
+}
+
+.footer {
+  clear: both;
+} 
+    
+    .ticks {
+      font-size: 10px;
+    }
+
+    .track,
+    .track-inset,
+    .track-overlay {
+      stroke-linecap: round;
+    }
+
+    .track {
+      stroke: #000;
+      stroke-opacity: 0.3;
+      stroke-width: 10px;
+    }
+
+    .track-inset {
+      stroke: #dcdcdc;
+      stroke-width: 8px;
+    }
+
+    .track-overlay {
+      pointer-events: stroke;
+      stroke-width: 50px;
+      stroke: transparent;
+      cursor: crosshair;
+    }
+
+    .handle {
+      fill: #fff;
+      stroke: #000;
+      stroke-opacity: 0.5;
+      stroke-width: 1.25px;
+    }
