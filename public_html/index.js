@@ -870,7 +870,7 @@ function main() {
         .style("stroke-opacity", .1);
 
         tooltip.transition().style("opacity", 1);
-        tooltip.text(d.size + " mass shooting(s)");
+        tooltip.text(d.size + " mass shootings");
       })
       .on("mouseout", function(d, i) {
         d3.select(this).transition()
